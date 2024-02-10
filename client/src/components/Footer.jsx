@@ -63,12 +63,12 @@ const FooterCom = () => {
                 <div className='w-full sm:flex sm:items-center sm:justify-between'>
                     <Footer.Copyright href='#' by="Priyabrath's Insights" year={new Date().getFullYear()} />
                     <div className='flex gap-6 sm:mt-0 mt-4 sm:justify-center'>
-                        <Footer.Icon href="#" icon={BsFacebook}/>
-                        <Footer.Icon href="https://www.instagram.com/arjun_1220tiwari?igsh=MTQyNXk0cng3cnZrdQ==" icon={BsInstagram}/>
-                        <Footer.Icon href="https://x.com/Arjun62956115?t=-9BACJTALO4iGXBkXErg2A&s=08" icon={BsTwitter}/>
-                        <Footer.Icon href="https://github.com/priyabrathtripathi" icon={BsGithub}/>
-                        <Footer.Icon href="https://www.linkedin.com/in/priyabrath-tripathi-5b294a182/" icon={BsLinkedin}/>
-                        <Footer.Icon href="#" icon={BsDribbble}/>
+                        <Footer.Icon target='_blank' href="#" icon={BsFacebook}/>
+                        <Footer.Icon target='_blank' href="https://www.instagram.com/arjun_1220tiwari?igsh=MTQyNXk0cng3cnZrdQ==" icon={BsInstagram}/>
+                        <Footer.Icon target='_blank' href="https://x.com/Arjun62956115?t=-9BACJTALO4iGXBkXErg2A&s=08" icon={BsTwitter}/>
+                        <Footer.Icon target='_blank' href="https://github.com/priyabrathtripathi" icon={BsGithub}/>
+                        <Footer.Icon target='_blank' href="https://www.linkedin.com/in/priyabrath-tripathi-5b294a182/" icon={BsLinkedin}/>
+                        <Footer.Icon target='_blank' href="https://dribbble.com/Priyabrath_123" icon={BsDribbble}/>
                     </div>
                 </div>
             </div>
