@@ -88,8 +88,8 @@ const CreatePost = () => {
             setFormData({ ...formData, category: e.target.value })
           }>
             <option value='uncategorized' >Select a category</option>
-            <option value='Javascript' >Javascript</option>
-            <option value='Mern stack' >Mern stack</option>
+            <option value='javascript' >Javascript</option>
+            <option value='mernstack' >Mern stack</option>
             <option value='nextjs' >Next.js</option>
             <option value='reactjs' >React.js</option>
           </Select>
